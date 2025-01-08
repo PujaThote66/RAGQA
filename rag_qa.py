@@ -4,7 +4,7 @@ import shutil
 from dotenv import load_dotenv
 from uuid import uuid4
 from filelock import FileLock
-from langchain.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import RecursiveCharacterTextSplitter
